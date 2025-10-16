@@ -115,3 +115,47 @@ section {
   color: #fff;
 }
 
+/* CARDS */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5em;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card h3 a {
+  color: #263196;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card h3 a:hover {
+  text-decoration: underline;
+}
+
+.tags {
+  margin-top: 0.5em;
+  font-size: 0.85em;
+  color: #555;
+}
+
+.tags a {
+  color: #FF4F09;
+  text-decoration: none;
+  margin-right: 0.5em;
+}
+
+.tags a:hover {
+  text-decoration: underline;
+}
+
+
+
